@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "HashFileProcess": {
+      "commandName": "Project",
+      "commandLineArgs": "\"D:\\3 course\\философия_техники.docx\""
+    }
+  }
+}

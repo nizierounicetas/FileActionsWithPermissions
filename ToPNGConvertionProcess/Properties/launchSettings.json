@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ToPNGConvertionProcess": {
+      "commandName": "Project",
+      "commandLineArgs": "\"D:\\53.jpg\""
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ZipFileProcess": {
+      "commandName": "Project",
+      "commandLineArgs": "\"C:\\Program Files (x86)\\Samsung\\SmartSwitchSupportFiles\\Setup1.exe\""
+    }
+  }
+}
