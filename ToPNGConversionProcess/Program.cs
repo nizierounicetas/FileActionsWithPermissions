@@ -1,6 +1,6 @@
 ﻿using System.Drawing;
 
-public static class ToPNGConvertionFileProcess
+public static class ToPNGConversionFileProcess
 {
     private static readonly string[] graphicalExtensions = { ".jpg", ".jpeg", ".gif", ".bmp" };
     public static int Main(string[] args)
@@ -41,6 +41,11 @@ public static class ToPNGConvertionFileProcess
             }
         }
         catch (UnauthorizedAccessException ex)
+        {
+            Console.Error.WriteLine(ex.Message);
+            return -3;
+        }
+        catch (System.Runtime.InteropServices.ExternalException ex)
         {
             Console.Error.WriteLine(ex.Message);
             return -3;

@@ -283,11 +283,11 @@ namespace Lab2._1
 
             if (code == 0)
             {
-                MetroFramework.MetroMessageBox.Show(this, $"Hash file: {Path.GetDirectoryName(filePathLbl.Text)}\\{Path.GetFileNameWithoutExtension(filePathLbl.Text)}_hash_sha256", "Hash's saved succesfully!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MetroFramework.MetroMessageBox.Show(this, $"PNG file: {Path.GetDirectoryName(filePathLbl.Text)}\\{Path.GetFileNameWithoutExtension(filePathLbl.Text)}.png", "Image's converted succesfully!", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {
-                MetroFramework.MetroMessageBox.Show(this, $"Some error occured", "Hash operation failed", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MetroFramework.MetroMessageBox.Show(this, $"Some error occured", "Conversion to png failed", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 

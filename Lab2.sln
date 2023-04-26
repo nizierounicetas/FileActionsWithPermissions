@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZipFileProcess", "ZipFilePr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashFileProcess", "HashFileProcess\HashFileProcess.csproj", "{911D94A9-75BF-4294-944E-43AEEE29F331}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToPngConvertionProcess", "ToPNGConvertionProcess\ToPngConvertionProcess.csproj", "{7C0066A4-94BD-47AB-BB3A-2086597517BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToPngConversionProcess", "ToPNGConversionProcess\ToPngConversionProcess.csproj", "{7C0066A4-94BD-47AB-BB3A-2086597517BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
