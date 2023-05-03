@@ -33,6 +33,7 @@ namespace Lab2._1
             if (isAdmin())
             {
                 MetroFramework.MetroMessageBox.Show(this, "App is run with admin rights", "Exiting...", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                this.Close();
             }
 
             progressSpinner.Spinning = false;
